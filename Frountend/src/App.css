@@ -111,3 +111,16 @@ img{
   border-radius: .9vh;
   float: right;
 } 
+.footer_box{
+  font-size: 25.5px;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.summary{
+  padding-top: 50px;
+  max-width: 30%;
+  word-wrap: wrap;
+}

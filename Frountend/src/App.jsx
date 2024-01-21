@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios';
 import News_model from './News_model'
+import Footer from './Footer';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
 
         }
       </section>
+      <Footer/>
     </div>
   )
 }
